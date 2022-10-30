@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mailer</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body style="display: flex; align-items: center; justify-content: center; ">
+
+   
+    <form method="POST" action="/action" style="display:flexbox;flex-wrap:wrap">
+        <div style="font-size: 25px; font-weight:bolder; margin-bottom: 20px;">
+            Send Email with NodeJs
+        </div>
+        <input type="email" placeholder="From email here" style="width: auto; padding:5px; border-radius:10px; display: block; margin-bottom: 10px;" name="from"  id="from" />
+
+        <input type="email" placeholder="To email here" style="width: auto; padding:5px; border-radius:10px;  display: block; margin-bottom: 10px;" name='to' id='to' />
+
+        <input type="test" placeholder="Subject here" style="width: auto; padding:5px; border-radius:10px;  display: block; margin-bottom: 10px;" name='subject'  id='subject' />
+
+        <textarea style="width: auto; padding:5px; border-radius:10px; margin-bottom: 10px;" name='msg'  id='msg'  rows="12" placeholder="Enter message  here" cols="21">Start Typing
+        </textarea>
+
+        <input type="submit" value="Submit" style="padding: 6px; width:180px; background-color:blue; color:white; cursor:pointer; border-radius: 10px; border: none;   display: block; " />
+
+    </form>
+    
+</body>
+</html>
